@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #C9CCD5;
 }
 
 .wrapper {
@@ -29,7 +29,7 @@ header {
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
-
+/* card section */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -46,7 +46,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #FFE3E3;
   height: 2px;
 }
 
@@ -62,7 +62,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #FFE3E3;
   height: 2px;
 }
 
@@ -71,10 +71,10 @@ header {
   display: block;
   clear: both;
 }
-
+/* button section */
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(147, 181, 198);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -117,7 +117,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
+/* media query section for responsiveness */
 @media (max-width: 690px) {
   
   .btn {

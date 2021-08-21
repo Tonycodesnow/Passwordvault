@@ -43,7 +43,7 @@ function generatePassword() {
   var specialChar = confirm("Will you use Special characters enter yes or no?")
 
   var newChar = ""
-
+  // if statements for user to or not to use specific characters
   if (upperChar === true ){
     newChar = newChar + uppercaseLetters
   }
@@ -61,33 +61,14 @@ function generatePassword() {
   }
 
   var password = ""
-
+  // for loop randomizing the password
   for (i=0; i< passwordLength; i++) {
       var randomChar = newChar[Math.floor(Math.random() * newChar.length)] 
       password = password +  randomChar
   }
 
-
   return password
-
-  console.log(upperChar, lowerChar)
-
-
-  // ask if user would like to use lowercase letters
-
-  // ask if user would like to use numbers
-
-  // ask if user would like to use special characters
-
-  // gernerate password and place in textarea
-
-
-
- 
 }
-
-
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
