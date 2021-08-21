@@ -1,7 +1,7 @@
 # Passwordvault
 
 
-<p align="center"><img src="./assets/PasswordVaultJS.png" width="70%"></p>
+<p align="center"><img src="./assets/PasswordVaultJS.png" width="80%"></p>
 
 
 
