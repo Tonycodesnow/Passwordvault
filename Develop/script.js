@@ -15,6 +15,8 @@ var lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
 var specialCharacters = "!@#$%^&*()_+{}|:?><[]";
+var minPassLength = 8;
+var maxPassLength = 128;
 
 
 // function to generate the password
@@ -27,21 +29,18 @@ function generatePassword() {
 
   
   // if the user's password length is lower than 8 or greater than 128
-  if (passwordLength > 7  && passwordLength < 129)
-  { 
-    // ask if user would like to use specific characters
-    var upperChar = confirm("Will you use Uppercase letters enter yes or no?")
-  
-    var lowerChar = confirm("Will you use Lowercase letters enter yes or no?")
-  
-    var numChar = confirm("Will you use numbers enter yes or no?")
-  
-    var specialChar = confirm("Will you use Special characters enter yes or no?")
-  
+  if (passwordLength >= minPassLength && passwordLength <= maxPassLength){
     } else {alert("Please choose a number between 8 and 128 characters!")
-
-    return
   }
+
+  // ask if user would like to use Upperrcase letters
+  var upperChar = confirm("Will you use Uppercase letters enter yes or no?")
+
+  var lowerChar = confirm("Will you use Lowercase letters enter yes or no?")
+
+  var numChar = confirm("Will you use numbers enter yes or no?")
+
+  var specialChar = confirm("Will you use Special characters enter yes or no?")
 
   var newChar = ""
   // if statements for user to or not to use specific characters
