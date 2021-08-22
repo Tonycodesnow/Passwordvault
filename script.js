@@ -44,7 +44,7 @@ function generatePassword() {
   }
 
   var newChar = ""
-  // if statements for user to or not to use specific characters
+  // if statements for user "to" or "not to" use specific characters
   if (upperChar === true ){
     newChar = newChar + uppercaseLetters
   }
