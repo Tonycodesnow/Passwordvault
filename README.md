@@ -3,7 +3,7 @@
 This application generates a random password based on the users criteria.
 Will run in the browser using dynamic HTML, CSS and JavaScript.
 
-<p align="center"><img src="./assets/PasswordVault.png" width="70%"></p>
+<p align="center"><img src="./assets/Passwordvault.png" width="70%"></p>
 
 Allows user to generate a brand new secure password through a series of prompts for password criteria.
 
