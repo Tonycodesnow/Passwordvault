@@ -1,7 +1,7 @@
 # Passwordvault
 
 This application generates a random password based on the users criteria.
-Will run in the browser using dynamic HTML, CSS and JavaScript.
+It will run in the browser using dynamic HTML, CSS and JavaScript.
 
 <p align="center"><img src="./assets/Passwordvault.png" width="70%"></p>
 
